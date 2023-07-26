@@ -1,0 +1,48 @@
+html,
+body {
+  margin: 0 auto;
+  background-color: #fcf6f5;
+}
+
+.card {
+  background-color: #317773;
+}
+
+.app-container {
+  display: flex;
+  margin: 50px 20px;
+  .left-container {
+    width: 70%;
+    position: relative;
+
+    .message-text {
+      position: absolute;
+      top: 50%;
+      left: 30%;
+    }
+  }
+
+  .right-container {
+    width: 30%;
+    margin-top: 30px;
+  }
+}
+
+.dates-wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin: 12px;
+  div {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.chips-container {
+  margin: 12px;
+  display: flex;
+  justify-content: center;
+}
